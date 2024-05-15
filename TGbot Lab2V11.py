@@ -1,5 +1,3 @@
-import Parser
-
 from telebot import TeleBot, types
 
 bot = TeleBot('7148468736:AAGjwGoJAfKZdBO_SpqX5koycYldnZL7qdc')
@@ -115,7 +113,6 @@ bot.infinity_polling(skip_pending=True)
 import logging
 import time
 from aiogram import Bot, Dispatcher, types
-import Parser
 
 
 def Bot():
